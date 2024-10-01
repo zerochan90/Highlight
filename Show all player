@@ -1,0 +1,6 @@
+for _,Parts in game:GetDescendants() do
+	if Parts:IsA('Model') then
+		local Light = Instance.new('Highlight',Parts)
+	end
+
+end
