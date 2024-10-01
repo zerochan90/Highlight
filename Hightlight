@@ -1,0 +1,9 @@
+for _,hs in game:GetDescendants() do
+	if hs:IsA('Model') then
+		if hs:FindFirstChildWhichIsA('Humanoid') then
+			local Instances = Instance.new('Highlight',hs)
+			Instances.Name = 'Light'
+			
+		end
+	end
+end
